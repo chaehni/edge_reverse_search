@@ -1,0 +1,30 @@
+{
+  "name": "Google image reverse",
+  "author": "Claude Hähni",
+  "version": "1.0",
+  "description": "Reverse search images with Google",
+
+  "browser_action": {
+    "default_icon": {
+      "20": "images/icon_20.png",
+      "40": "images/icon_40.png"
+    },
+    "default_title": "Google image reverse",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "128": "images/icon_128.png"
+  },
+
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  }
+}
