@@ -1,15 +1,15 @@
 {
-  "name": "Google image reverse",
+  "name": "Image reverse search",
   "author": "Claude Hähni",
   "version": "1.0",
-  "description": "Reverse search images with Google",
+  "description": "Reverse search images",
 
   "browser_action": {
     "default_icon": {
       "20": "images/icon_20.png",
       "40": "images/icon_40.png"
     },
-    "default_title": "Google image reverse",
+    "default_title": "Image reverse",
     "default_popup": "popup.html"
   },
 
