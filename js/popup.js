@@ -1,5 +1,6 @@
 let google = document.getElementById('google');
 let bing = document.getElementById('bing');
+let tineye = document.getElementById('tineye');
 let bg = browser.extension.getBackgroundPage();
 
 let engine = browser.storage.local.get("engine", function (data) {
@@ -16,4 +17,8 @@ google.onclick = function () {
 
 bing.onclick = function () {
     bg.set_engine("bing");
+};
+
+tineye.onclick = function () {
+    bg.set_engine("tineye");
 };

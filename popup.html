@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  </head>
 
-  <body>
-    <h5>Image reverse search</h5>
-    <p>Select a search engine</p>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <div class="parent">
+    <p>
+      <h5 class="text-muted">Image reverse search</h5>
+    </p>
+    <b>Select a search engine:</b>
 
     <fieldset>
+      <div>
         <input type="radio" id="google" name="engine" value="Google" checked>
-        <label for="google">Google</label> 
+        <label for="google">Google</label>
+      </div>
+      <div>
         <input type="radio" id="bing" name="engine" value="Bing">
-        <label for="bing">Bing</label> 
+        <label for="bing">Bing</label>
+      </div>
+      <div>
+        <input type="radio" id="tineye" name="engine" value="TinEye">
+        <label for="tineye">TinEye</label>
+      </div>
     </fieldset>
-    
-    <script src="js/popup.js"></script>
-  </body>
+  </div>
+</body>
+
+<script src="js/popup.js"></script>
+
 </html>
