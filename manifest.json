@@ -6,17 +6,18 @@
 
   "browser_action": {
     "default_icon": {
-      "20": "images/icon_20.png",
-      "40": "images/icon_40.png"
+      "20": "images/icon.svg",
+      "40": "images/icon.svg"
     },
     "default_title": "Image reverse",
     "default_popup": "popup.html"
   },
 
   "icons": {
-    "16": "images/icon_16.png",
-    "32": "images/icon_32.png",
-    "128": "images/icon_128.png"
+    "16": "images/icon.svg",
+    "32": "images/icon.svg",
+    "64": "images/icons.svg",
+    "128": "images/icon.svg"
   },
 
   "permissions": [
