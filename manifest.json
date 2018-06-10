@@ -1,15 +1,15 @@
 {
-  "name": "Image reverse search",
+  "name": "Image Reverse",
   "author": "Claude Hähni",
   "version": "1.0",
-  "description": "Reverse search images",
+  "description": "Reverse-search images with different search providers.\n\nIcon made by Icon Monk from www.flaticon.com",
 
   "browser_action": {
     "default_icon": {
       "20": "images/icon.svg",
       "40": "images/icon.svg"
     },
-    "default_title": "Image reverse",
+    "default_title": "Image Reverse",
     "default_popup": "popup.html"
   },
 
