@@ -4,20 +4,27 @@
   "version": "1.0",
   "description": "Reverse-search images with different search providers.\n\nIcon made by Icon Monk from www.flaticon.com",
 
+  "browser_specific_settings": {
+    "edge": {
+      "browser_action_next_to_addressbar": true
+    }
+  },
+
   "browser_action": {
     "default_icon": {
-      "20": "images/icon.svg",
-      "40": "images/icon.svg"
+      "20": "images/pngs/20.png",
+      "40": "images/pngs/40.png"
     },
     "default_title": "Image Reverse",
     "default_popup": "popup.html"
   },
 
   "icons": {
-    "16": "images/icon.svg",
-    "32": "images/icon.svg",
-    "64": "images/icons.svg",
-    "128": "images/icon.svg"
+    "16": "images/pngs/16.png",
+    "32": "images/pngs/32.png",
+    "48": "images/pngs/48.png",
+    "128": "images/pngs/128.png",
+    "176": "images/pngs/176.png"
   },
 
   "permissions": [
